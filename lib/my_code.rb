@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def map_to_negativize(source_array) 
   i = 0
   newArray = []
@@ -68,3 +69,36 @@ def reduce_to_any_true(source_array)
   end
   return false
 end
+=======
+def map_negativize(source_array) {
+  index = 0
+  while index < source_array.length do
+    source_array[index] *= -1
+    
+  p source_array
+}
+
+def map_to_no_change(source_array) {
+  
+}
+
+def map_to_double(source_array) {
+  
+}
+
+def map_to_square(source_array) {
+  
+}
+
+def reduce_to_total(source_array, starting_point) {
+  
+}
+
+def reduce_to_all_true(source_array) {
+  
+}
+
+def reduce_to_any_true(source_array) {
+  
+}
+>>>>>>> 99c43ae18213cc210cdad0017073d72473a09981
